@@ -15,31 +15,6 @@
   - **Фронтенд**: HTML, CSS, JavaScript (возможно использование библиотек, таких как Chart.js для визуализации данных)
   - **База данных**: MySQL
 
-\``` arduino
-personalfinance/
-│
-├── App/
-│   └─── Application/
-│       ├── Controller/
-│       ├── Router/
-│       ├── View
-│       ├─── Middleware/
-│       └─── Request/ 
-│       
-├── router/
-│   ├── web.php/
-│   │   
-│   └─── api.php
-│
-│
-├── database/
-│   ├── config.php/
-│   └── connection.php/
-│
-│
-│
-└─ index.php
-\```
 
 ## **02.07.2024**
   - Создать проект
