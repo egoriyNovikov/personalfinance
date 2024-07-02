@@ -1,0 +1,11 @@
+{
+    "name": "egoriynovikov/personalfinance",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require-dev": {
+        "larapack/dd": "1.*"
+    }
+}
