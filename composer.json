@@ -1,5 +1,5 @@
 {
-    "name": "egoriynovikov/personalfinance",
+    "name": "egoriynovikov/personal-finance",
     "autoload": {
         "psr-4": {
             "App\\": "App/"
