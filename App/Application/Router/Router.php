@@ -11,7 +11,9 @@ class Router implements RouterInterface
     $uri = $_SERVER['REQUEST_URI'];
     foreach ($routes as $route) {
       if ($route['uri'] === $uri) {
-        echo $route['html'];
+        $controller = new $route['controller'];
+        $method = $route['method'];
+        $controller->$method();
       }
     }
   }
